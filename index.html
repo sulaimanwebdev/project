@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.1/css/all.css">
+
+
+</head>
+<body>
+
+<div class="pp headerP">
+    <div class="cc headerC py-5 px-10 flex align-center justify-between">
+     <div class="logo"><img src="images/logo.svg" alt="" ></div>
+     <nav>
+         <a href="#" class="text">Home</a>
+         <a href="#">Pages</a>
+         <a href="#">Features</a>
+         <a href="#">Roadmap</a>
+         <a href="#">Team</a>
+         <a href="#" class=""><img src="images/bag.svg" alt=""></a>
+         <a href="#" class="py-3 px-6 bg-blue-500 font-bold rounded text-white">Download app</a>
+
+
+
+
+
+     </nav>
+     <i class="fas fa-bars burger"></i>
+    </div>
+</div>
+
+
+
+
+<div class="hero px-10">
+    <div>
+        <h1 class="">Send, receive and invest money right from your phone</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing mattis ultrices pellentesque sagittis quam urna.</p>
+       <div class="links">
+        <a href="#" class="py-5 px-6 bg-blue-500 font-bold rounded text-white">Download app</a>
+        <a href="#" class="py-4 px-6 bg-transparent font-bold border-4 border-blue-500 rounded text-blue">Learn more</a>
+       </div>
+
+    </div>
+    <div class="imageCont">
+        <img src="images/Frame 1 (1).png" alt="">
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    let nav = document.querySelector('nav');
+    let burger = document.querySelector('.burger');
+
+
+
+    burger.addEventListener('click', () =>{
+        nav.classList.toggle('opened')
+    })
+
+</script>
+</body>
+</html>
